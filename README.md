@@ -1,27 +1,36 @@
-# Welcome to React Router!
+<div align="center">
+<div><img src="https://github.com/kkrishguptaa/nom/raw/main/public/favicon.svg" alt="Nom logo" width="96" height="96"></div>
+<h1>Nom</h1>
+<p>How much do I love your name? ✨</p>
+<div><img src="https://github.com/kkrishguptaa/nom/raw/main/public/og-image.png" alt="Nom cover image" width="600"></div>
+</div>
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## Try it out
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+[![Demo of Nom](https://github.com/kkrishguptaa/nom/raw/main/.github/demo.gif)](https://nom.krishg.com)
 
-## Features
+Here's the live demo of the app. You can try it out [here](https://nom.krishg.com).
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Live demo: [nom.krishg.com](https://nom.krishg.com)
+
+## Build With
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Bun](https://bun.sh/)
 
 ## Getting Started
+
+This project is built with [Bun](https://bun.sh). You need to have Bun installed to run this project. If you don't have it installed, you can follow the [Bun installation guide](https://bun.sh/docs/installation).
 
 ### Installation
 
 Install the dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 ### Development
@@ -29,59 +38,7 @@ npm install
 Start the development server with HMR:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+The application will be available at `http://localhost:5173`.
