@@ -4,8 +4,40 @@ import { nomLover } from "~/lib/nom-lover";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Nom Nom Nom – How much do I love your name?" },
+    {
+      name: "description",
+      content:
+        "I heavy fw with noms (names) but I love some names more than others, enter a name and I'll let you know what I think ✨",
+    },
+    {
+      name: "og:title",
+      content: "Nom Nom Nom – How much do I love your name?",
+    },
+    {
+      name: "og:description",
+      content:
+        "I heavy fw with noms (names) but I love some names more than others, enter a name and I'll let you know what I think ✨",
+    },
+    { name: "og:type", content: "website" },
+    { name: "og:image", content: "/og-image.png" },
+    { name: "og:image:width", content: "1200" },
+    { name: "og:image:height", content: "630" },
+    { name: "og:url", content: "https://nom.krishg.com" },
+    { name: "og:site_name", content: "Nom Nom Nom" },
+    { name: "og:locale", content: "en_US" },
+    { name: "twitter:creator", content: "@kkrishguptaa" },
+    { name: "twitter:card", content: "summary_large_image" },
+    {
+      name: "twitter:title",
+      content: "Nom Nom Nom – How much do I love your name?",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "I heavy fw with noms (names) but I love some names more than others, enter a name and I'll let you know what I think ✨",
+    },
+    { name: "twitter:image", content: "/og-image.png" },
   ];
 }
 
