@@ -2,7 +2,6 @@
 <div><img src="https://github.com/kkrishguptaa/nom/raw/main/public/favicon.svg" alt="Nom logo" width="96" height="96"></div>
 <h1>Nom</h1>
 <p>How much do I love your name? ✨</p>
-<div><img src="https://github.com/kkrishguptaa/nom/raw/main/public/og-image.png" alt="Nom cover image" width="600"></div>
 </div>
 
 ## Try it out
