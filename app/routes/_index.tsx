@@ -59,6 +59,13 @@ export default function Home() {
           I heavy fw with noms (names) but I love some names more than others,
           enter a name and I'll let you know what I think ✨
         </p>
+        <p>
+          A score above 150 means I like the name, above 250 means I LOVE the
+          name, and above 350 is basically names I'm obsessed over. 😅 Between
+          0-100 means you're name's cool but I don't really have an opinion on
+          it. If you get a negative score, I probably don't speak your language,
+          so the calculator doesn't account for it. 😅
+        </p>
       </header>
       <main>
         <form className="my-8">
